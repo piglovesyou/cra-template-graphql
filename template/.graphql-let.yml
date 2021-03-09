@@ -1,0 +1,10 @@
+schema:
+  - ${REACT_APP_GRAPHQL_ENDPOINT}:
+      headers:
+        Authorization: "Bearer ${REACT_APP_AUTH_TOKEN}"
+documents: "**/*.tsx"
+plugins:
+  - typescript
+  - typescript-operations
+  - typescript-react-apollo
+cacheDir: src/__generated__
