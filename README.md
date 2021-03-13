@@ -9,20 +9,14 @@ A GraphQL client based on Create React App. Tech stack:
 
 ## Usage
 
-**You need a GitHub token** to start the template. [Go get one](https://github.com/settings/tokens) and fill your `.env` file with it.
-
 ```bash
 npx create-react-app my-app --template graphql
-cd my-app
-mv .env.template .env  # Fill with your GitHub token
 ```
 
 or
 
 ```bash
 yarn create react-app my-app --template graphql
-cd my-app
-mv .env.template .env  # Fill with your GitHub token
 ```
 
 ## Author

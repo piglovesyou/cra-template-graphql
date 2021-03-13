@@ -1,4 +1,4 @@
-fragment Partial on User {
-    id
-    name
+fragment Partial on ExchangeRate {
+  currency
+  rate
 }

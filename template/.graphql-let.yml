@@ -1,7 +1,4 @@
-schema:
-  - ${REACT_APP_GRAPHQL_ENDPOINT}:
-      headers:
-        Authorization: "Bearer ${REACT_APP_AUTH_TOKEN}"
+schema: ${REACT_APP_GRAPHQL_ENDPOINT}
 documents: "**/*.tsx"
 plugins:
   - typescript
