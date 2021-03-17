@@ -20,6 +20,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `yarn codegen`
+
+Generates types and intermediate sources of your GraphQL documents.\
+`yarn start` does the same thing through Babel, but `yarn codegen` generates them more efficiently.\
+When number of your GraphQL documents grow, I recommend running `yarn codegen` before `yarn start` \
+for a quick startup.
+
 ### `yarn start`
 
 Runs the app in the development mode.\
