@@ -1,6 +1,6 @@
 # cra-template-graphql
 
-A GraphQL client based on Create React App. Tech stack:
+Create a first GraphQL client based on Create React App. Tech stack:
 
 * TypeScript
 * [Apollo Client](https://github.com/apollographql/apollo-client) as a GraphQL client
