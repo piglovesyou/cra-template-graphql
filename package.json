@@ -1,6 +1,6 @@
 {
   "name": "cra-template-graphql",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A GraphQL client based on Create React App",
   "main": "index.js",
   "repository": "git@github.com:piglovesyou/cra-template-graphql.git",
