@@ -1,7 +1,6 @@
 schema: ${REACT_APP_GRAPHQL_ENDPOINT}
 documents: "**/*.tsx"
 plugins:
-  - typescript
   - typescript-operations
   - typescript-react-apollo
-cacheDir: src/__generated__
+cacheDir: src/__cached__
